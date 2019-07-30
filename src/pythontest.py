@@ -1,5 +1,5 @@
 name_of_file = "testme"
-completeName = '/root/python/content-python3-sysadmin/pgbackup/src/'+ name_of_file + ".txt"
+completeName = '/home/'+ name_of_file + ".txt"
 toFile = "this is the first chance to work\nwith python\n"
 file1 = open(completeName , "w")
 file1.write(toFile)
